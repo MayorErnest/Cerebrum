@@ -1,4 +1,4 @@
-/* Fonts */
+Fonts
 
 /* Variables */
 
@@ -45,6 +45,7 @@ p {
 
 .flex {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .grid {
