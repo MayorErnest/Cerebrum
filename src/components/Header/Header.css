@@ -1,0 +1,29 @@
+.nav-container {
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+}
+
+.nav-logo img {
+  width: 200px;
+  height: 38px;
+  object-fit: contain;
+}
+
+.nav-links {
+  align-items: center;
+}
+
+.nav-links li {
+  margin: 0 30px;
+}
+
+.nav-links li a {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.nav-container button {
+  margin: 0 20px;
+  font-weight: 600;
+}

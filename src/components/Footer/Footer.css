@@ -1,0 +1,34 @@
+.footer-section {
+  padding: 20px 60px;
+  background: var(--secondary-color);
+}
+
+.footer-item1 {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-item2 {
+  justify-content: space-between;
+  margin: 40px 30px;
+  color: #ffffff;
+}
+
+.footer-item2 h5 {
+  font-weight: 400;
+}
+
+.footer-item1 .footerlinks li a,
+.footer-icons a {
+  color: #ffffff;
+  margin: 0 30px;
+}
+
+.footer-section input {
+  padding: 11px;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+.footer-section button {
+  display: inline;
+}

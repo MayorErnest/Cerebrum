@@ -1,7 +1,12 @@
-Fonts
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap");
 
 /* Variables */
-
+:root {
+  --primary-color: #1421ff;
+  --secondary-color: #212121;
+  --background-color: #fbfbfb;
+}
 /* Defaults */
 * {
   margin: 0;
@@ -9,42 +14,29 @@ Fonts
   box-sizing: border-box;
 }
 
-h1 {
-  font-size: 2.2em;
+body {
+  font-family: "Montserrat", sans-serif;
+  background: var(--background-color);
 }
 
-h2 {
-  font-size: 2em;
+ul {
+  list-style-type: none;
 }
 
-h3 {
-  font-size: 1.8em;
-}
-
-h4 {
-  font-size: 1.6em;
-}
-
-h5 {
-  font-size: 1.4em;
-}
-
-p {
-  font-size: 1.2em;
+a {
+  text-decoration: none;
 }
 
 /* Utilities */
 .container {
-  width: 980px;
+  width: 80%;
   text-align: left;
   margin-left: auto;
   margin-right: auto;
-  background-color: #ffffff;
 }
 
 .flex {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .grid {
@@ -61,4 +53,61 @@ p {
 
 .left {
   float: left;
+}
+
+.bttn {
+  display: block;
+  border: 2px solid var(--primary-color);
+  border-radius: 10px;
+  padding: 10px 20px;
+  outline: none;
+  cursor: pointer;
+  color: var(--primary-color);
+  background-color: var(--background-color);
+}
+
+.bttn-primary {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+}
+
+.card {
+  background: #ffffff;
+  width: 500px;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
+}
+
+.input {
+  width: 95%;
+  padding: 5px;
+  font-size: 1.17rem;
+  margin: 15px auto;
+  border: 0;
+  border-radius: 5px;
+}
+
+.input:focus {
+  border: 0;
+  outline: none;
+}
+.input-container {
+  border: 1px solid #888888;
+  border-radius: 5px;
+  margin: 15px 0;
+  padding-left: 10px;
+}
+
+.input-container span {
+  color: #888888;
+}
+
+.input::placeholder {
+  font-size: 1.13rem;
+  padding: 30px 0px;
+}
+.form-container {
+  width: 90%;
+  margin: 15px auto;
 }
